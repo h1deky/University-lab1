@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Навчальний кабінет фізики</title>
+</head>
+<body>
+
+  <h1>Навчальний кабінет фізики</h1>
+  <p><a href="materials.html">До розділу про швидкість світла</a></p>
+
+  <h2>Еквівалентність маси й енергії</h2>
+  <p>E=mc2, де E — енергія тіла, m — його маса, c — швидкість світла у вакуумі, що дорівнює 299 792 458 м/с.</p>
+  <p>У стані спокою енергію тіла також позначають E<sub>0</sub>.</p>
+
+  <h2>Студенти навчальної бригади</h2>
+  <p>У списку використано умовні позначення студентів.</p>
+  <label for="student">Студент</label>
+  <select id="student">
+    <option>Капашин Олександр</option>
+    <option>Шило Ярина</option>
+    <option>Рибалко Ігор</option>
+  </select>
+
+  <h2>Зміст книги</h2>
+  <table>
+    <caption>Фрагмент змісту підручника «Фізика. 10 клас», за ред. В. Г. Бар’яхтара та С. О. Довгого</caption>
+    <tr><th scope="col">Розділ</th><th scope="col">Сторінка</th></tr>
+    <tr><th scope="row">Передмова</th><td>3</td></tr>
+    <tr><th scope="row">1. Зародження і розвиток фізики як науки</th><td>5</td></tr>
+    <tr><th scope="row">3. Скалярні і векторні величини</th><td>16</td></tr>
+    <tr><th scope="row">4. Основна задача механіки. Абетка кінематики</th><td>20</td></tr>
+  </table>
+
+  <h2>Інформація про студента</h2>
+  <form action="materials.html#form-result" method="get">
+    <p><label for="full-name">Ім’я та прізвище</label>
+      <input id="full-name" type="text" required></p>
+    <p><label for="group">Академічна група</label>
+      <input id="group" type="text" required></p>
+    <p><label for="course">Курс</label>
+      <input id="course" type="number" min="1" max="6" required></p>
+    <button type="submit">Перевірити поля</button>
+    <button type="reset">Очистити</button>
+  </form>
+</body>
+</html>
